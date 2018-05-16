@@ -17,6 +17,9 @@ public:
 	string c;
 	void setChildren()
 	{	children = c;	}
+
+	string getChildren()
+	{	return children;	}
 };
 
 
