@@ -14,8 +14,9 @@ private:
 	Parent Dad;
 
 	Child()	{
-		Parent Mom;
-		Parent Dad;	}
+		Parent Mom = Human Mom;
+		Parent Dad = Human Dad;
+	}
 public:
 
 };
