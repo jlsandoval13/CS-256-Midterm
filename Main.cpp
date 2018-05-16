@@ -10,6 +10,8 @@ int main()
 {
 	Human Dad(string Homer); (36); ('M');
 	Human Mom(string March); (34); ('F');
-	Parent 
+	Parent:Dad:Human Son(string Bart); (10); ('M');
+	Parent:Dad:Human Daughter(string Lisa); (12); ('F');
+	Parent:Mom:Human Daughter(string Maggie); (3); ('4');
 	return 0;
 }
